@@ -21,6 +21,16 @@ namespace C_sharpPlayground
             c.AreaOfCirle();
             c.Display();
 
+            IfStatements statement = new IfStatements();
+            statement.DrinkBeer();
+
+            SwitchStatement switchStatement = new SwitchStatement();
+            switchStatement.GiveRemarks();
+
+            Loops loops = new Loops();
+            loops.WhileLoop();
+            loops.DoLoop();
+
 
         }
     }

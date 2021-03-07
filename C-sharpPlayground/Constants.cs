@@ -27,7 +27,7 @@ namespace C_sharpPlayground
 
         public void Display()
         {
-            Console.WriteLine("Area of Circle with radius {0}: {1}",radius, AreaOfCirle());
+            Console.WriteLine("Area of Circle with radius {0} is : {1}",radius, AreaOfCirle());
         }
     }
 
