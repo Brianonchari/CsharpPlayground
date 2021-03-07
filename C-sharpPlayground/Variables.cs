@@ -11,14 +11,17 @@ namespace C_sharpPlayground
     class Variables
     {
         int a;
-        int b;
-        int c;
+        double b;
+        short c;
+        int num; 
         public void AcceptDetails()
         {
 
             a = 10;
             b = 20;
             c =30;
+            Console.WriteLine("Enter a number: ");
+            num = Convert.ToInt32(Console.ReadLine());
         }
 
 
@@ -28,6 +31,8 @@ namespace C_sharpPlayground
             Console.WriteLine("a :{0}" ,a);
             Console.WriteLine("b:{0}," ,b);
             Console.WriteLine("c:{0}",c);
+
+
       
         }
     }

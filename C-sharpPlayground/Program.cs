@@ -14,7 +14,14 @@ namespace C_sharpPlayground
             Variables v = new Variables();
             v.AcceptDetails();
             v.DisplayVariables();
-             Console.ReadLine();
+            Console.ReadLine();
+
+            Constants c = new Constants();
+            c.AcceptRadius();
+            c.AreaOfCirle();
+            c.Display();
+
+
         }
     }
 }
